@@ -1,0 +1,8 @@
+USE sql_store;
+
+SELECT
+	name,
+	unit_price,
+    unit_price *1.1 AS 'new price'
+FROM products
+ORDER BY unit_price;
